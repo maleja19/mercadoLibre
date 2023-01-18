@@ -1,0 +1,54 @@
+body{
+    margin-top: 7vh;
+    margin-left: 4vw;
+
+}
+
+.content-form{
+    border: 1px solid #ebebeb;
+    width: 75%;
+    background-color: #ebebeb;
+    padding-top: 2vh;
+        
+    
+}
+
+.input{
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding-top: 2vh;
+    border-radius: 3px;
+    margin-bottom: 4vh;
+    border: 1px solid #ebebeb;
+
+}
+
+.label-1{
+    padding-left: 1vw;
+    font-size: 1em;
+    position: relative;
+    bottom: 2vh;
+    font-weight: 900;
+}   
+
+form div{
+    
+    padding-left: 1vw;    
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7vw;
+   
+    
+}
+
+.radio2{
+    padding-left: 2vw;
+}
+
+
+.label-3{
+    display: block;
+
+}
+

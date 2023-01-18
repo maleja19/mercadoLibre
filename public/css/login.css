@@ -1,0 +1,319 @@
+.container-header{
+    background-color: #EAC926;
+    font-size: 12px;
+    padding-bottom: 0;
+    
+    
+}
+
+
+/*.logo{
+    
+    width: 40vw;
+    height: 15vh;
+}   */
+
+.first-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+        
+}
+
+.first-header .logo{
+    width: 50%;
+    margin: 10px;
+
+
+}
+
+.first-header .input{
+    width: 50%;
+    height: 2vh;
+    margin: 12px;
+    border: 1px solid #ebebeb;
+    border-radius:3px;
+    margin-right: 1px;
+    text-align: justify;
+    padding: 1.6vh;
+}   
+
+
+
+.first-header i{
+    background-color:  white;
+    color: #ebebeb;
+    border-radius:3px;    
+    display: block;
+    width: 10%;    
+    margin-right:5px;
+    margin-left:1px;
+    height: 5.5vh;
+    text-align: center; 
+   
+
+}
+
+
+.container-header .banner{
+    display: block;
+    max-width: 100%;
+    margin-top: 15px;
+    
+}
+
+
+
+.icon-hand{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+.first-part-navbar{
+
+    list-style:none;
+    margin:0;
+    padding:0;
+
+}
+
+.second-part-navbar{
+
+    list-style:none;
+    margin:0;
+    padding:0;
+    
+
+}
+
+.enlace{
+    text-decoration: none;
+    color: black;
+}
+
+
+.burger-menu{
+    
+    border:1px #1259c3;
+    border-radius:2px;
+    display: block;
+    max-width: 30px;
+    text-align: center;
+    color:white;
+    background-color: #1259c3;
+    padding: 5px 0;
+    font-size: 14px;
+    margin: auto; 
+}
+
+form{
+    border: 1px solid #ebebeb;
+    background-color: #ebebeb;
+    width: 100%;
+    padding-top:4vh;
+}
+
+.input{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-top: 2vh;
+    border-radius: 3px;
+    margin-bottom: 5vh;
+    border: 1px solid #ebebeb;
+
+}
+
+.password{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-top: 2vh;
+    border-radius: 3px;
+    margin-bottom: 5vh;
+    border: 1px solid #ebebeb;
+
+}
+
+.boton{
+    display: block;
+    margin: auto;
+    width: 50%;
+    border: 1px solid #1259c3;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #1259c3;
+    color: white;
+    padding-top: 2vh;
+    margin-bottom: 15vh; 
+}
+
+.boton:hover{
+    background-color: #0022AA;
+}
+
+.recomendaciones{
+    display: block;
+    text-align: center;    
+    margin: 5vw 10vw;
+
+}
+
+footer i{
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: #1259c3;
+}
+
+footer p{
+    font-family: "roboto";
+    font-size: 16px;
+    margin: 0px;
+}
+
+footer h5{
+    font-family: "roboto";
+    font-size: 18px;
+    margin: 0px;
+}
+
+@media(min-width: 361px){
+    /*tablets*/
+        
+    .container-header .banner{
+        display: none;
+    }
+
+    .burger-menu{
+        display: none;
+        }
+    
+    .second-header{
+              
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+                  
+    }
+
+    .second-header .first-header{
+        width: 66%;
+    }
+
+    
+    .second-header .icon-hand{
+        width: 33%;
+    }
+
+    .list{
+        display: flex;
+        margin-left: 2vw;
+        padding-bottom: 2vw;
+
+            
+    }
+
+    .first-part-navbar{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        
+
+    }
+
+    .second-part-navbar{
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        justify-content: space-between;
+        margin-left: 30vw;
+        margin-right: 3vw;
+                
+    }
+
+    @media(min-width: 769px){
+        /*laptop*/
+            
+        .container-header .banner{
+            display: none;
+        }
+    
+        .burger-menu{
+            display: none;
+        }
+    
+        .second-header{
+                 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+           
+              
+        }
+    
+        .second-header .first-header{
+            width: 66%;
+        }
+    
+        
+        .second-header .icon-hand{
+            width: 33%;
+        }
+    
+        .list{
+            display: flex;
+            margin-left: 20px;
+            padding-bottom: 2vw;
+    
+                
+        }
+    
+        .first-part-navbar{
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+            
+    
+        }
+    
+        .second-part-navbar{
+            display: flex;
+            width: 50%;
+            justify-content: flex-end;
+            justify-content: space-between;
+            margin-left: 30vw;
+            margin-right: 3vw;
+                    
+        }   
+
+        .foot{
+            display: inline-flex;
+            justify-content: space-around;
+            
+        }
+    
+        .recomendaciones i:hover{
+            color: #39b54a;
+        }
+    
+    }
+
+    @media (max-width: 460px){
+        /*smartphones*/
+        
+        header ul{
+            display: none;
+        }
+    
+                
+    }
+    
+    
+}

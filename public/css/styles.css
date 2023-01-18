@@ -1,0 +1,427 @@
+.container-header{
+    background-color: #EAC926;
+    font-size: 12px;
+    padding-bottom: 0;
+    
+    
+}
+
+
+/*.logo{
+    
+    width: 40vw;
+    height: 15vh;
+}   */
+
+.first-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+        
+}
+
+.first-header .logo{
+    width: 50%;
+    margin: 10px;
+
+
+}
+
+.first-header .input{
+    width: 50%;
+    height: 2vh;
+    margin: 12px;
+    border: 1px solid #ebebeb;
+    border-radius:3px;
+    margin-right: 1px;
+    text-align: justify;
+    padding: 1.6vh;
+}   
+
+
+
+.first-header i{
+    background-color:  white;
+    color: #ebebeb;
+    border-radius:3px;    
+    display: block;
+    width: 10%;    
+    margin-right:5px;
+    margin-left:1px;
+    height: 5.5vh;
+    text-align: center; 
+   
+
+}
+
+
+.container-header .banner{
+    display: block;
+    max-width: 100%;
+    margin-top: 15px;
+    
+}
+
+
+
+.icon-hand{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+.first-part-navbar{
+
+    list-style:none;
+    margin:0;
+    padding:0;
+    
+
+}
+
+.second-part-navbar{
+
+    list-style:none;
+    margin:0;
+    padding:0;
+    
+    
+
+}
+
+.enlace{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.burger-menu{
+    
+    border:1px #1259c3;
+    border-radius:2px;
+    display: block;
+    max-width: 30px;
+    text-align: center;
+    color:white;
+    background-color: #1259c3;
+    padding: 5px 0;
+    font-size: 14px;
+    margin: auto; 
+}
+
+body{
+    background-color: #ECEAEA;
+    
+   
+}
+
+main{      
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    
+    
+     
+
+}
+
+main h3{
+    font-size: 24px;
+    font-family: 'Roboto';
+    color: #666; 
+}
+
+
+.products{
+    margin-top: 15px;
+   
+       
+        
+}
+
+
+.article{
+    padding-bottom: 10px;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+    margin-bottom: 0;
+    background-color:white; 
+         
+       
+}
+
+.article img{
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+
+
+.description{
+    padding-bottom: 10px;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:white; 
+    text-align: center;
+    position: relative;
+    
+
+
+}
+
+.price{
+    display: flex;
+    flex-direction: row;    
+    
+}
+
+.percent{
+    color: #39b54a;
+    
+}
+
+
+.description p,h4{
+    text-align: left;
+    line-height:2px;
+}
+
+.description i{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 18px;
+    top: -18px;
+    color: #39b54a;
+   
+
+}
+
+.recomendaciones{
+    display: block;
+    text-align: center;    
+    margin: 5vw 10vw;
+
+}
+
+footer i{
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: #1259c3;
+}
+
+footer p{
+    font-family: "roboto";
+    font-size: 16px;
+    margin: 0px;
+}
+
+footer h5{
+    font-family: "roboto";
+    font-size: 18px;
+    margin: 0px;
+}
+
+.fa-truck:hover{
+    transform: rotate(-90deg);
+}
+
+.container-article:hover{
+    box-shadow: 0px 5px 10px gray;
+    
+}
+
+
+
+@media(min-width: 361px){
+    /*tablets*/
+    .container-article{
+        box-shadow : 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    .container-header .banner{
+        display: none;
+    }
+
+    .burger-menu{
+        display: none;
+        }
+    
+    .container-article{
+        max-width: 48%;       
+        display: inline-block;
+        
+    }
+
+    .second-header{
+              
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+                  
+    }
+
+    .second-header .first-header{
+        width: 66%;
+    }
+
+    
+    .second-header .icon-hand{
+        width: 33%;
+    }
+
+    .list{
+        display: flex;
+        margin-left: 2vw;
+        padding-bottom: 2vw;
+
+            
+    }
+
+    .first-part-navbar{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        
+
+    }
+
+    .second-part-navbar{
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        justify-content: space-between;
+        margin-left: 30vw;
+        margin-right: 3vw;
+                
+    }
+    
+    
+}
+
+@media(min-width: 769px){
+    /*laptop*/
+    .container-article{
+        box-shadow : 0px 0px 10px rgb(100, 100, 100);
+        max-width: 24%;
+        display: inline-block;
+        
+    }
+
+    .container-header .banner{
+        display: none;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    .second-header{
+             
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+          
+    }
+
+    .second-header .first-header{
+        width: 66%;
+    }
+
+    
+    .second-header .icon-hand{
+        width: 33%;
+    }
+
+    .list{
+        display: flex;
+        margin-left: 20px;
+        padding-bottom: 2vw;
+
+            
+    }
+
+    .first-part-navbar{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        
+
+    }
+
+    .second-part-navbar{
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        justify-content: space-between;
+        margin-left: 30vw;
+        margin-right: 3vw;
+                
+    }   
+
+    .description{
+        opacity: 0;
+    }
+    .description:hover{
+        opacity: 1;
+    }
+
+    .foot{
+        display: inline-flex;
+        justify-content: space-around;
+        
+    }
+
+    .recomendaciones i:hover{
+        color: #39b54a;
+    }
+    
+  
+
+    
+@media (max-width: 460px){
+    /*smartphones*/
+    .description{
+        display: none;  
+        
+    }
+
+    header ul{
+        display: none;
+    }
+
+    .container-article{
+        max-width: 100%;
+        display: inline-block;
+    }
+
+
+    
+}
+}
+
+/*list-style:none;
+margin:0;
+padding:0;*/
+
+

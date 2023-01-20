@@ -183,7 +183,7 @@ footer h5{
     margin: 0px;
 }
 
-@media(min-width: 361px){
+@media(min-width: 768px){
     /*tablets*/
         
     .container-header .banner{
@@ -238,7 +238,7 @@ footer h5{
                 
     }
 
-    @media(min-width: 769px){
+    @media(min-width: 1024px){
         /*laptop*/
             
         .container-header .banner{
@@ -305,9 +305,9 @@ footer h5{
     
     }
 
-    @media (max-width: 460px){
+    @media (max-width: 367px){
         /*smartphones*/
-        
+
         header ul{
             display: none;
         }

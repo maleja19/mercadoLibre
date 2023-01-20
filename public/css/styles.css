@@ -251,7 +251,7 @@ footer h5{
 
 
 
-@media(min-width: 361px){
+@media(min-width: 768px){
     /*tablets*/
     .container-article{
         box-shadow : 0px 0px 10px rgb(100, 100, 100);
@@ -318,7 +318,7 @@ footer h5{
     
 }
 
-@media(min-width: 769px){
+@media(min-width: 1024px){
     /*laptop*/
     .container-article{
         box-shadow : 0px 0px 10px rgb(100, 100, 100);
@@ -399,7 +399,7 @@ footer h5{
   
 
     
-@media (max-width: 460px){
+@media (max-width: 367px){
     /*smartphones*/
     .description{
         display: none;  
